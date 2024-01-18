@@ -1,0 +1,48 @@
+@import "../styles/variables.module.scss";
+
+.global {
+	html {
+		max-width: 100vw;
+		overflow-x: hidden;
+	}
+
+	body {
+		background-color: $primary-color;
+		font-size: 16px;
+		font-family: $font-family;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+	// Utility Classes
+	.hide {
+		display: none !important;
+	}
+	img {
+		border-radius: 5px;
+	}
+}
+
+// Responsive Breakpoints
+$small-screen: 576px;
+$medium-screen: 768px;
+$large-screen: 992px;
+$xlarge-screen: 1200px;
+
+@media screen and (max-width: $small-screen) {
+	// Responsive styles for small screens
+}
+
+@media screen and (min-width: $medium-screen) {
+	// Responsive styles for medium screens
+}
+
+@media screen and (min-width: $large-screen) {
+	// Responsive styles for large screens
+}
+
+@media screen and (min-width: $xlarge-screen) {
+	// Responsive styles for extra-large screens
+}

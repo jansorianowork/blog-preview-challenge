@@ -1,0 +1,45 @@
+@import "../../app/globals.module.scss";
+.card {
+	background-color: $white;
+	border: 1px solid $black;
+	border-radius: 10px;
+	max-width: 400px;
+	padding: 20px;
+	box-shadow: 5px 10px;
+}
+
+.cardDate {
+	font-weight: 600;
+}
+
+.cardTitle {
+	font-weight: 800;
+	font-size: $font-lg;
+	padding: 20px 0;
+	@media screen and (max-width: $small-screen) {
+		// Responsive styles for small screens
+		font-size: $font-md;
+	}
+
+	&:hover {
+		color: $primary-color;
+	}
+}
+
+.cardBody {
+	color: $grey;
+	font-size: $font-md;
+	padding-bottom: 20px;
+	@media screen and (max-width: $small-screen) {
+		// Responsive styles for small screens
+		font-size: $font-sm;
+	}
+}
+
+.cardAvatar {
+	display: flex;
+	font-weight: 700;
+	img {
+		margin-right: 10px;
+	}
+}

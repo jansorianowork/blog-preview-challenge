@@ -1,0 +1,17 @@
+@import "../../app/globals.module.scss";
+
+.btn {
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 5px;
+	font-size: $font-sm;
+	background: none;
+	box-shadow: none;
+	font-weight: 800;
+	font-family: $font-family;
+	margin: 10px 0;
+}
+
+.btnPrimary {
+	background-color: $primary-color;
+}
